@@ -1,0 +1,116 @@
+/* body {
+height: 3000px;
+} */
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(248, 254, 254);
+     position: fixed; 
+    top: 0;
+    left: 0;
+    /* opacity: 0.7 ; */
+}
+.sec-one {
+    background-image: url(../Images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:800px;
+   margin-top: 100px;
+
+}
+.sec-one h2{
+  color:  aqua;
+    font-size: 20px;
+    /* margin: 0px 400px ; */
+
+}
+ .P1{
+   color: aliceblue; 
+   font-size: 50px;
+   margin-left: 50px;
+}
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+.btn2{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 50px;
+    opacity: 0.5;
+}
+img {
+    height: 60px;
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+}
+
+.list1 {
+    float: right ;
+    margin-right: 120px;
+}
+.list1 li:hover {
+  background-color: rgb(118, 231, 231);
+}
+.list1  li {
+    list-style: none;
+    display: inline-block ;
+    font-size: 21px;
+    margin-left: 25px;
+   color: #060606;
+}
+.list1  li  a {
+    text-decoration: none ;
+color: #060606;
+}
+ h2{
+    margin-left: 50px;
+ }
+ .title {
+    text-align: center;
+    font-size: 55px;
+}
+.divline {
+width:100px;
+height: 4px;
+background-color:#007bff;
+margin: auto;
+margin-top:-30px ;
+
+}
+div.div1{
+    width: 300px;
+    height: 350px;
+    border: 3px solid gray;
+    text-align: center;
+    float: left;
+margin-left: 60px;
+margin-right: 50px;
+margin-top: 50px;
+}
+.div1:hover{
+ background-color: rgb(154, 208, 245);
+}
+div.div2{
+    border: 3px solid rgb(75, 135, 239);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+   font-size: 20px;
+   line-height:5PX;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: 3px solid rgb(111, 152, 246);
+ 
+}
+p{
+    color: dimgrey;
+}
